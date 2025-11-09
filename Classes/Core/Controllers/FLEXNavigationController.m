@@ -62,6 +62,7 @@
     } else {
         [self addNavigationBarSwipeGesture];
     }
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
